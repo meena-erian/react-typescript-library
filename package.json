@@ -1,11 +1,10 @@
 {
-  "name": "js",
+  "name": "react-typescript-library",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "This is a very minimal simplified template for creating React component library with TypeScript.",
+  "main": "dist/src/index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "start-dev": "webpack-dev-server --config ./webpack.config.js",
+    "start": "webpack-dev-server --config ./webpack.config.js",
     "build-demo": "webpack --mode production",
     "build-lib": "npx tsc"
   },

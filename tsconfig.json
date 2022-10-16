@@ -1,11 +1,14 @@
 {
-    "include": ["src/**/*", "demo/src/**/*"],
-    "compilerOptions": {
-      "esModuleInterop": true,
-      "allowJs": true,
-      "declaration": true,
-      "jsx": "react-jsx",
-      "outDir": "dist",
-      "declarationMap": true
-    }
+  "include": [
+    "src/**/*",
+    "demo/src/**/*"
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true,
+    "declaration": true,
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "declarationMap": true
   }
+}

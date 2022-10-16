@@ -25,7 +25,7 @@ module.exports = {
     entry: resolveAppPath('demo/src'),
 
     output: {
-
+        path: path.resolve(__dirname, 'demo/build'),
         // Development filename output
         filename: 'demo/static/js/bundle.js',
     },
@@ -65,7 +65,7 @@ module.exports = {
     resolve: {
         extensions: ['.ts', '.tsx', '.js', 'jsx', '.json'],
         alias: {
-            "mylib": path.resolve(__dirname, './src')
+            "react-typescript-library": path.resolve(__dirname, './src')
         }
     },
     module: {

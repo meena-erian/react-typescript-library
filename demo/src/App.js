@@ -1,5 +1,5 @@
 import Comp from "./Comp";
-import { ExportedComponent } from "mylib";
+import { ExportedComponent } from "react-typescript-library";
 
 
 export default function App() {
